@@ -65,7 +65,7 @@ describe('saludo(idioma)', function() {
   });
 });
 
-describe.only('colors(color)', function() {
+describe('colors(color)', function() {
   it('should return \'This is {color}\'', function() {
     expect(colors("blue")).toBe('This is blue');
     expect(colors("red")).toBe('This is red');
@@ -136,7 +136,7 @@ describe('fizzBuzz(num)', function() {
   });
 });
 
-describe('operadoresLogicos(num1, num2, num3)', function() {
+describe.only('operadoresLogicos(num1, num2, num3)', function() {
   it('should return \'Número 1 es mayor y positivo\' if num1 is positive and if it is greater than num2 and num3', function() {
     expect(operadoresLogicos(50, 2, 15)).toBe('Número 1 es mayor y positivo');
   });
