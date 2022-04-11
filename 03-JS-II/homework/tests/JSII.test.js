@@ -136,7 +136,7 @@ describe('fizzBuzz(num)', function() {
   });
 });
 
-describe.only('operadoresLogicos(num1, num2, num3)', function() {
+describe('operadoresLogicos(num1, num2, num3)', function() {
   it('should return \'Número 1 es mayor y positivo\' if num1 is positive and if it is greater than num2 and num3', function() {
     expect(operadoresLogicos(50, 2, 15)).toBe('Número 1 es mayor y positivo');
   });
@@ -170,7 +170,7 @@ describe('esPrimo(num)', function() {
   });
 });
 
-describe ('esVerdadero(valor)', function() {
+describe('esVerdadero(valor)', function() {
   it('should return Soy verdadero if valor is true', function() {
     expect(esVerdadero(true)).toBe("Soy verdadero");
   });
@@ -179,13 +179,13 @@ describe ('esVerdadero(valor)', function() {
   });
 });
 
-describe ('tablaDelSeis()', function() {
+describe('tablaDelSeis()', function() {
   it('should return multiplication table of 6', function() {
     expect(tablaDelSeis()).toEqual([0 , 6, 12, 18, 24, 30, 36, 42, 48, 54, 60]);
   });
 });
 
-describe ('tieneTresDigitos(numero)', function() {
+describe('tieneTresDigitos(numero)', function() {
   it('should return true if numero has 3 digits', function() {
     expect(tieneTresDigitos(100)).toBe(true);
     expect(tieneTresDigitos(820)).toBe(true);
